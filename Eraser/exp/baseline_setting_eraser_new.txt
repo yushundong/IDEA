@@ -1,0 +1,4 @@
+  File "main.py", line 87
+    if self.args['write'] == True:
+    ^
+IndentationError: unexpected indent

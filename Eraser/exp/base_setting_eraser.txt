@@ -1,0 +1,34 @@
+INFO:2024-01-25 01:58:42,642: - root - : node_Coauthor_CS_sage_km_30_0.2
+INFO:2024-01-25 01:58:42,719: - data_store - : folder temp_data/processed_data/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:42,720: - data_store - : folder temp_data/models/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:42,720: - data_store - : folder temp_data/analysis_data/optimal/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:42,720: - data_store - : folder temp_data/analysis_data/posteriors/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:42,720: - data_store - : loading raw data
+INFO:2024-01-25 01:58:42,978: - exp_graph_partition - : splitting train/test data
+INFO:2024-01-25 01:58:42,980: - data_store - : saving train test split data
+DEBUG:2024-01-25 01:58:43,184: - exp_graph_partition - : After edge deletion. train graph  #.Nodes: 14666.000000, #.Edges: 51607.000000
+DEBUG:2024-01-25 01:58:43,184: - exp_graph_partition - : After edge deletion. train data  #.Nodes: 18333.000000, #.Edges: 163788.000000
+INFO:2024-01-25 01:58:43,184: - data_store - : saving train data
+INFO:2024-01-25 01:58:43,934: - data_store - : saving train graph
+INFO:2024-01-25 01:58:44,260: - exp_graph_partition - : graph partitioning
+INFO:2024-01-25 01:58:44,260: - lib_graph_partition.graph_partition - : graph partition, method: sage_km
+INFO:2024-01-25 01:58:44,260: - data_store - : folder temp_data/processed_data/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:44,260: - data_store - : folder temp_data/models/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:44,260: - data_store - : folder temp_data/analysis_data/optimal/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:44,260: - data_store - : folder temp_data/analysis_data/posteriors/Coauthor_CS exists, do not need to create again.
+INFO:2024-01-25 01:58:44,260: - lib_node_embedding.node_embedding - : generating node embeddings with GraphSage...
+INFO:2024-01-25 01:58:45,800: - graphsage - : loading model
+/home/zhenyu/miniconda3/envs/ceu/lib/python3.8/site-packages/torch_geometric/deprecation.py:22: UserWarning: 'data.NeighborSampler' is deprecated, use 'loader.NeighborSampler' instead
+  warnings.warn(out)
+INFO:2024-01-25 01:58:49,283: - data_store - : saving embedding data
+INFO:2024-01-25 01:58:49,352: - partition_kmeans - : partitioning
+INFO:2024-01-25 01:58:49,354: - partition_kmeans - : #.nodes: 14666. Shard threshold: 560.
+  0%|          | 0/20 [00:00<?, ?it/s]Clustering:   0%|          | 0/20 [00:00<?, ?it/s]INFO:2024-01-25 01:58:49,492: - constrained_kmeans - : iteration 0
+INFO:2024-01-25 01:59:29,138: - constrained_kmeans - : delta: 413.07275
+INFO:2024-01-25 01:59:29,138: - constrained_kmeans - : iteration 1
+INFO:2024-01-25 02:00:09,796: - constrained_kmeans - : delta: 158.56874
+INFO:2024-01-25 02:00:09,796: - constrained_kmeans - : iteration 2
+INFO:2024-01-25 02:00:50,038: - constrained_kmeans - : delta: 72.78487
+INFO:2024-01-25 02:00:50,038: - constrained_kmeans - : iteration 3
+INFO:2024-01-25 02:01:32,205: - constrained_kmeans - : delta: 39.26146
+INFO:2024-01-25 02:01:32,205: - constrained_kmeans - : iteration 4
