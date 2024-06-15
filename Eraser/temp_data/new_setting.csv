@@ -1,0 +1,3 @@
+dataset,model,unlearn_task,is_ratio,unlearn_ratio,partition_method,aggregator,f1_score_avg,f1_score_std,training_time_avg,training_time_std,f1_score_unlearn_avg,f1_score_unlearn_std,unlearning_time_avg,unlearning_time_std
+cora,GCN,node,True,0.05,random,optimal,0.4895448954489545,0.0191345008439164,12.096825122833252,0.6121866414531333,0.4649446494464944,0.0197569230064071,11.327765544255575,0.2202962508077101
+

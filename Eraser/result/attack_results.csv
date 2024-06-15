@@ -1,0 +1,2 @@
+Dataset,Partition Method,Aggregator,Exp,Unlearn Ratio,Attack Metrics,Epochs,Test Accuracy,Test Precision,Test Recall,Test AUC,Ratio
+cora,random,optimal,edge,0,attack3_metrics_concate_all,50,0.4974029186247836,0.4974245768947756,0.5016077170418006,0.4960691396329429,0.5

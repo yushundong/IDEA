@@ -1,0 +1,2 @@
+Dataset,Partition Method,Aggregator,Exp,Unlearn Ratio,AUC,AUC Std,ACC,ACC Std
+cora,random,optimal,node,0.05,0.49971712352188385,0.0,0.4986769818498129,0.0
